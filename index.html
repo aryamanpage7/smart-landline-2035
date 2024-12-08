@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Landline in 2035 - Decision Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Smart Landline in 2035 - Decision Game</h1>
+    <div id="scenario" class="scenario">
+      <p id="scenario-text">Loading scenario...</p>
+      <div class="choices">
+        <button class="choice-button" onclick="makeChoice(0)">Smart Landline</button>
+        <button class="choice-button" onclick="makeChoice(1)">Mobile Phone</button>
+        <button class="choice-button" onclick="makeChoice(2)">Other Device</button>
+      </div>
+    </div>
+    <div id="result" class="result"></div>
+    <button id="next-button" class="next-button" onclick="nextScenario()">Next Scenario</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+}
+
+.scenario {
+  margin-bottom: 20px;
+}
+
+.choices {
+  margin-top: 20px;
+}
+
+.choice-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.next-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #218838;
+}
